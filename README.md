@@ -199,40 +199,6 @@ source ~/.zshrc
 mv hello.kt.save hello.kt
 ```
 
----
-
-## 📚 পরবর্তী ধাপ
-
-এখন আপনি Kotlin এবং Android Studio সেটআপ করে ফেলেছেন! পরবর্তী ধাপগুলো:
-
-1. **Kotlin বেসিক শিখুন:**
-    - Variables (val, var)
-    - Data Types (String, Int, Boolean)
-    - Functions
-    - Control Flow (if, when, for, while)
-
-2. **Android Components শিখুন:**
-    - Activities
-    - Layouts (XML)
-    - Views এবং ViewGroups
-    - Intent এবং Navigation
-
-3. **Jetpack Compose শিখুন** (Modern UI)
-
-4. **প্র্যাক্টিস প্রোজেক্ট তৈরি করুন:**
-    - Calculator অ্যাপ
-    - Todo List অ্যাপ
-    - Weather অ্যাপ
-
----
-
-## 🔗 দরকারি লিংক
-
-- [Kotlin Official Documentation](https://kotlinlang.org/docs/home.html)
-- [Android Developer Guide](https://developer.android.com/)
-- [Kotlin Playground](https://play.kotlinlang.org/) - অনলাইনে Kotlin কোড টেস্ট করুন
-
----
 
 ## 📝 নোট
 
