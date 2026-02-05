@@ -3,17 +3,6 @@
 এই গাইডটি আপনাকে MacBook এ Kotlin ইনস্টল করতে এবং Android Studio দিয়ে প্রথম প্রোজেক্ট তৈরি করতে সাহায্য করবে।
 
 
----
-
-## 📋 বিষয়বস্তু
-1. [Kotlin ইনস্টলেশন](#kotlin-ইনস্টলেশন)
-2. [Kotlin যাচাই করা](#kotlin-যাচাই-করা)
-3. [প্রথম Kotlin প্রোগ্রাম](#প্রথম-kotlin-প্রোগ্রাম)
-4. [Android Studio সেটআপ](#android-studio-সেটআপ)
-5. [সমস্যা সমাধান](#সমস্যা-সমাধান)
-
----
-
 ## 🚀 Kotlin ইনস্টলেশন
 
 ### ধাপ ১: Homebrew দিয়ে Kotlin ইনস্টল করুন
@@ -40,11 +29,6 @@ Homebrew স্বয়ংক্রিয়ভাবে Kotlin এবং প�
 kotlinc -version
 ```
 
-**আউটপুট দেখতে হবে:**
-```
-info: kotlinc-jvm 1.x.x (অথবা আপনার ইনস্টল করা ভার্সন)
-```
-
 ---
 
 ## 👨‍💻 প্রথম Kotlin প্রোগ্রাম
@@ -63,45 +47,12 @@ fun main() {
 }
 ```
 
-
-### ধাপ ৩: ফাইল চেক করুন
-
 সব ফাইল দেখতে:
 
 ```bash
 ls
 ```
 
-আপনার `hello.kt` ফাইল দেখা উচিত।
-
-### ধাপ ৪: যদি ভুল ফাইল তৈরি হয়
-
-যদি `hello.kt.save` তৈরি হয়ে যায়, তাহলে নাম ঠিক করুন:
-
-```bash
-mv hello.kt.save hello.kt
-```
-
-### ধাপ ৫: কম্পাইল এবং রান করুন
-
-**কম্পাইল করুন:**
-```bash
-kotlinc hello.kt -include-runtime -d hello.jar
-```
-
-**রান করুন:**
-```bash
-java -jar hello.jar
-```
-
-**আউটপুট:**
-```
-Hello Kotlin from MacBook!
-```
-
-✅ **অভিনন্দন!** আপনি সফলভাবে প্রথম Kotlin প্রোগ্রাম রান করেছেন!
-
----
 
 ## 📱 Android Studio সেটআপ
 
@@ -160,9 +111,6 @@ app/
 
 ---
 
-
-
-
 ### সমস্যা 1: JDK পাওয়া যাচ্ছে না
 
 **সমাধান:**
@@ -175,8 +123,6 @@ brew install openjdk
 echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
-
-
 
 ## 📝 নোট
 
