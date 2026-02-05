@@ -63,10 +63,6 @@ fun main() {
 }
 ```
 
-**সেভ করার জন্য:**
-- `Ctrl + O` চাপুন (সেভ করতে)
-- `Enter` চাপুন
-- `Ctrl + X` চাপুন (বের হতে)
 
 ### ধাপ ৩: ফাইল চেক করুন
 
@@ -164,23 +160,10 @@ app/
 
 ---
 
-## 🛠 সমস্যা সমাধান
 
-### সমস্যা ১: `kotlinc: command not found`
 
-**সমাধান:**
-```bash
-brew reinstall kotlin
-```
 
-### সমস্যা ২: Gradle build ফেইল হচ্ছে
-
-**সমাধান:**
-1. Android Studio রিস্টার্ট করুন
-2. **File → Invalidate Caches / Restart**
-3. **Invalidate and Restart** সিলেক্ট করুন
-
-### সমস্যা ৩: JDK পাওয়া যাচ্ছে না
+### সমস্যা 1: JDK পাওয়া যাচ্ছে না
 
 **সমাধান:**
 ```bash
@@ -193,12 +176,6 @@ echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-### সমস্যা ৪: ভুল ফাইল নাম (hello.kt.save)
-
-**সমাধান:**
-```bash
-mv hello.kt.save hello.kt
-```
 
 
 ## 📝 নোট
@@ -207,11 +184,4 @@ mv hello.kt.save hello.kt
 - Kotlin ভার্সন এবং Android Studio ভার্সন সময়ের সাথে আপডেট হতে পারে
 - সমস্যা হলে Stack Overflow বা Android Developer Community তে প্রশ্ন করতে পারেন
 
----
 
-**শুভকামনা এবং Happy Coding! 🎉**
-
----
-
-*তৈরি করেছেন: Kotlin শিক্ষার্থীদের জন্য*  
-*সর্বশেষ আপডেট: ফেব্রুয়ারি ২০২৬*
