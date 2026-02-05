@@ -131,19 +131,3 @@ source ~/.zshrc
 - সমস্যা হলে Stack Overflow বা Android Developer Community তে প্রশ্ন করতে পারেন
 
 
-
-### Q1: অ্যান্ড্রয়েড অ্যাপের নাম (Display Name) কীভাবে পরিবর্তন করতে হয়? 
-- Ans: res > values > strings.xml ফাইলে গিয়ে <string name="app_name"> ট্যাগের ভেতরে নতুন নাম লিখে দিলেই অ্যাপের নাম পরিবর্তন হয়ে যায়।
-
-### Q2: সরাসরি ম্যানিফেস্ট ফাইলে নাম পরিবর্তন না করে strings.xml ব্যবহার করা হয় কেন? 
-- Ans: এটি একটি "Best Practice"। এর ফলে অ্যাপে সহজেই একাধিক ভাষা (যেমন: বাংলা ও ইংরেজি) যুক্ত করা যায় এবং এক জায়গা থেকেই পুরো অ্যাপের নাম নিয়ন্ত্রণ করা যায়।
-
-### Q3: AndroidManifest.xml দেখে কীভাবে বুঝবো কোন স্ক্রিনটি আগে ওপেন হবে? 
-- Ans: যে <activity> ট্যাগের ভেতরে নিচের intent-filter কোডটুকু থাকবে, সেই স্ক্রিনটিই অ্যাপ ওপেন করলে সবার আগে আসবে:
-
-```bash
-<intent-filter>
-    <action android:name="android.intent.action.MAIN" />
-    <category android:name="android.intent.category.LAUNCHER" />
-</intent-filter>
-```
