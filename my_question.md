@@ -219,13 +219,3 @@
 
 ---
 
-## ✍️ নোট (Correction কেন করা হয়েছে)
-
-* **RelativeLayout** ও **findViewById** কে Legacy বলা হয়েছে, কারণ এখন **ConstraintLayout** ও **ViewBinding** বেশি ব্যবহার হয়
-* **onActivityResult** deprecated, তাই নতুন **Activity Result API** শেখা জরুরি
-* বানান ঠিক করা হয়েছে: *vertual → virtual*, *kivabe → কীভাবে*, *oparetor → operator*
-* টার্মগুলো অফিসিয়াল Android/Kotlin নাম অনুযায়ী সাজানো হয়েছে, যাতে future documentation পড়তে সুবিধা হয়
-
----
-
-✅ এই প্রশ্নগুলোর একটার পর একটা উত্তর দিতে দিতে তুমি **complete Android + Kotlin developer** হয়ে যেতে পারো।
