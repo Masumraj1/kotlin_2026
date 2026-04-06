@@ -27,195 +27,194 @@
 
 ## 🧱 XML & View-based UI
 
-15. XML activity কীভাবে তৈরি করতে হয়?
-16. Kotlin activity কীভাবে তৈরি করতে হয়?
-17. Manifest এ activity কীভাবে declare করতে হয়?
-18. XML দিয়ে UI design কীভাবে করা হয়?
-19. TextView কীভাবে কাজ করে?
-20. findViewById কী এবং কীভাবে কাজ করে? *(পুরোনো পদ্ধতি)*
-21. ViewBinding কী এবং কীভাবে কাজ করে? *(Recommended)*
-22. View visibility (visible / invisible / gone) কীভাবে কাজ করে?
-23. AppCompatTextView ও MaterialTextView কীভাবে কাজ করে?
-24. EditText কীভাবে কাজ করে?
-25. ImageView কীভাবে কাজ করে?
-26. Button কীভাবে কাজ করে?
-27. Toast কীভাবে কাজ করে?
-28. Snackbar কীভাবে কাজ করে?
-29. ScrollView কীভাবে কাজ করে?
-30. RadioButton ও RadioGroup কীভাবে কাজ করে?
-31. Switch কীভাবে কাজ করে?
-32. CheckBox কীভাবে কাজ করে?
-33. FloatingActionButton কীভাবে কাজ করে?
-34. Bottom Navigation Bar কীভাবে তৈরি করা হয়?
-35. CardView কীভাবে কাজ করে?
-36. LinearLayout কীভাবে কাজ করে?
-37. RelativeLayout কীভাবে কাজ করে? *(Legacy)*
-38. ConstraintLayout কীভাবে কাজ করে?
-39. Constraint-এর Position & Bias কী?
-40. Constraint Chain কী এবং কীভাবে কাজ করে?
-41. Gone Margin ও Gone Baseline কী?
-42. Guideline কী এবং কীভাবে কাজ করে?
-43. Group কী এবং কীভাবে কাজ করে?
-44. Barrier কী এবং কীভাবে কাজ করে?
+1. XML activity কীভাবে তৈরি করতে হয়?
+2. Kotlin activity কীভাবে তৈরি করতে হয়?
+3. Manifest এ activity কীভাবে declare করতে হয়?
+4. XML দিয়ে UI design কীভাবে করা হয়?
+5. TextView কীভাবে কাজ করে?
+6. findViewById কী এবং কীভাবে কাজ করে? *(পুরোনো পদ্ধতি)*
+7. ViewBinding কী এবং কীভাবে কাজ করে? *(Recommended)*
+8. View visibility (visible / invisible / gone) কীভাবে কাজ করে?
+9. AppCompatTextView ও MaterialTextView কীভাবে কাজ করে?
+10. EditText কীভাবে কাজ করে?
+11. ImageView কীভাবে কাজ করে?
+12. Button কীভাবে কাজ করে?
+13. Toast কীভাবে কাজ করে?
+14. Snackbar কীভাবে কাজ করে?
+15. ScrollView কীভাবে কাজ করে?
+16. RadioButton ও RadioGroup কীভাবে কাজ করে?
+17. Switch কীভাবে কাজ করে?
+18. CheckBox কীভাবে কাজ করে?
+19. FloatingActionButton কীভাবে কাজ করে?
+20. Bottom Navigation Bar কীভাবে তৈরি করা হয়?
+21. CardView কীভাবে কাজ করে?
+22. LinearLayout কীভাবে কাজ করে?
+23. RelativeLayout কীভাবে কাজ করে? *(Legacy)*
+24. ConstraintLayout কীভাবে কাজ করে?
+25. Constraint-এর Position & Bias কী?
+26. Constraint Chain কী এবং কীভাবে কাজ করে?
+27. Gone Margin ও Gone Baseline কী?
+28. Guideline কী এবং কীভাবে কাজ করে?
+29. Group কী এবং কীভাবে কাজ করে?
+30. Barrier কী এবং কীভাবে কাজ করে?
 
 ---
 
 ## 🧠 Events & Resources
 
-45. Click event listener কীভাবে কাজ করে?
-46. Long click event listener কীভাবে কাজ করে?
-47. Touch event listener কীভাবে কাজ করে?
-48. Key listener কীভাবে কাজ করে?
-49. EditText-এর TextWatcher কী এবং কীভাবে কাজ করে?
-50. R class কী এবং কীভাবে কাজ করে?
-51. Drawable কী এবং কীভাবে কাজ করে?
-52. Mipmap কী এবং কীভাবে কাজ করে?
-53. Layout resource কী?
-54. Values resource (colors, styles, themes) কী?
-55. Raw resource কী?
-56. Assets folder কী?
+1. Click event listener কীভাবে কাজ করে?
+2. Long click event listener কীভাবে কাজ করে?
+3. Touch event listener কীভাবে কাজ করে?
+4. Key listener কীভাবে কাজ করে?
+5. EditText-এর TextWatcher কী এবং কীভাবে কাজ করে?
+6. R class কী এবং কীভাবে কাজ করে?
+7. Drawable কী এবং কীভাবে কাজ করে?
+8. Mipmap কী এবং কীভাবে কাজ করে?
+9. Layout resource কী?
+10. Values resource (colors, styles, themes) কী?
+11. Raw resource কী?
+12. Assets folder কী?
 
 ---
 
 ## 🚀 Intent, Service & System
 
-57. Implicit Intent কী?
-58. Explicit Intent কী?
-59. Service কী এবং কেন ব্যবহার করা হয়?
-60. Background Service কীভাবে কাজ করে?
-61. Foreground Service কীভাবে কাজ করে?
-62. Bound Service কীভাবে কাজ করে?
-63. Broadcast Receiver কীভাবে কাজ করে?
-64. Local Notification কীভাবে কাজ করে?
-65. Runtime Permission কী?
-66. Toolbar কীভাবে set করা হয়?
-67. WebView কীভাবে ব্যবহার করা হয়?
+1. Implicit Intent কী?
+2. Explicit Intent কী?
+3. Service কী এবং কেন ব্যবহার করা হয়?
+4. Background Service কীভাবে কাজ করে?
+5. Foreground Service কীভাবে কাজ করে?
+6. Bound Service কীভাবে কাজ করে?
+7. Broadcast Receiver কীভাবে কাজ করে?
+8. Local Notification কীভাবে কাজ করে?
+9. Runtime Permission কী?
+10. Toolbar কীভাবে set করা হয়?
+11. WebView কীভাবে ব্যবহার করা হয়?
 
 ---
 
 ## 🧩 Fragment
 
-68. Fragment কী এবং কীভাবে কাজ করে?
-69. Fragment কীভাবে তৈরি করতে হয়?
-70. Fragment add কীভাবে করা হয়?
-71. একটি Fragment-এর উপর আরেকটি Fragment কীভাবে add করা হয়?
-72. Fragment remove করা (popBackStack সহ) কীভাবে করা হয়?
-73. Fragment lifecycle explain কীভাবে করা যায়?
-74. Fragment এ data pass কীভাবে করা হয়?
-75. Fragment animation কীভাবে করা হয়?
-76. Fragment-এর code reusable করার best practice কী?
+1. Fragment কী এবং কীভাবে কাজ করে?
+2. Fragment কীভাবে তৈরি করতে হয়?
+3. Fragment add কীভাবে করা হয়?
+4. একটি Fragment-এর উপর আরেকটি Fragment কীভাবে add করা হয়?
+5. Fragment remove করা (popBackStack সহ) কীভাবে করা হয়?
+6. Fragment lifecycle explain কীভাবে করা যায়?
+7. Fragment এ data pass কীভাবে করা হয়?
+8. Fragment animation কীভাবে করা হয়?
+9. Fragment-এর code reusable করার best practice কী?
 
 ---
 
 ## 🎨 Advanced UI & Utilities
 
-77. Bottom AppBar কীভাবে কাজ করে?
-78. Text ও Theme এ custom font কীভাবে set করা হয়?
-79. Custom View class কীভাবে তৈরি করা হয়?
-80. XML ছাড়া শুধু Kotlin দিয়ে UI কীভাবে করা যায়?
-81. onActivityResult কী? *(Deprecated – নতুন API কী?)*
-82. DatePicker কীভাবে implement করা হয় (Kotlin)?
-83. RecyclerView pagination কীভাবে করা হয়?
-84. Encrypted SharedPreferences কীভাবে কাজ করে?
+1. Bottom AppBar কীভাবে কাজ করে?
+2. Text ও Theme এ custom font কীভাবে set করা হয়?
+3. Custom View class কীভাবে তৈরি করা হয়?
+4. XML ছাড়া শুধু Kotlin দিয়ে UI কীভাবে করা যায়?
+5. onActivityResult কী? *(Deprecated – নতুন API কী?)*
+6. DatePicker কীভাবে implement করা হয় (Kotlin)?
+7. RecyclerView pagination কীভাবে করা হয়?
+8. Encrypted SharedPreferences কীভাবে কাজ করে?
 
 ---
 
 ## 🗄️ SQLite / ROOM Database
 
-85. SQLite ও ROOM Database কী? (Overview)
-86. ROOM – Database create (Entity / DAO / Database)
-87. ROOM – Insert data
-88. ROOM – Read data (RecyclerView এ show)
-89. ROOM – Update data
-90. ROOM – Delete data
-91. ROOM – Auto Migration *(Recommended)*
-92. ROOM – Manual Migration
+1. SQLite ও ROOM Database কী? (Overview)
+2. ROOM – Database create (Entity / DAO / Database)
+3. ROOM – Insert data
+4. ROOM – Read data (RecyclerView এ show)
+5. ROOM – Update data
+6. ROOM – Delete data
+7. ROOM – Auto Migration *(Recommended)*
+8. ROOM – Manual Migration
 
 ---
 
 ## 🎥 Media & Hardware
 
-93. MediaPlayer কীভাবে কাজ করে?
-94. VideoView কীভাবে কাজ করে?
-95. Camera Intent কীভাবে ব্যবহার করা হয়?
-96. ExoPlayer কী?
-97. Camera library (CameraX) কীভাবে কাজ করে?
+1. MediaPlayer কীভাবে কাজ করে?
+2. VideoView কীভাবে কাজ করে?
+3. Camera Intent কীভাবে ব্যবহার করা হয়?
+4. ExoPlayer কী?
+5. Camera library (CameraX) কীভাবে কাজ করে?
 
 ---
 
 ## 🌐 Network & Data
 
-98. JSON কী?
-99. API call কীভাবে করা হয়?
+1. JSON কী?
+2. API call কীভাবে করা হয়?
 
 ---
 
 # 🧠 Kotlin Basic Understanding
 
-100. Kotlin-এ val কীভাবে কাজ করে?
-101. Kotlin-এ var কীভাবে কাজ করে?
-102. Kotlin-এর সব data type কী কী?
-103. Kotlin-এ fun কেন ব্যবহার করা হয়?
-104. Kotlin-এ console print করার জন্য কী লেখা হয়?
-105. print ও println-এর পার্থক্য কী?
-106. Double quotation-এর ভিতরে variable কীভাবে call করা হয়?
-107. $ sign-এর কাজ কী?
-108. Kotlin-এ comment কীভাবে লেখা হয়?
-109. if–else কীভাবে কাজ করে?
-110. when expression কীভাবে কাজ করে?
-111. Range কীভাবে কাজ করে?
-112. Return ছাড়া function কীভাবে লেখা হয়?
-113. Object কীভাবে তৈরি করা হয়?
-114. Kotlin-এ getter ও setter কীভাবে কাজ করে?
-115. Kotlin-এ polymorphism কীভাবে কাজ করে?
-116. Nullable type কীভাবে কাজ করে?
-117. Kotlin-এ file handling কীভাবে করা হয়?
-118. Annotation কী এবং কীভাবে কাজ করে?
-119. Kotlin debugging কীভাবে করা হয়?
-120. Kotlin multithreading কী?
-121. Kotlin build tools ও library কী?
-122. Kotlin reflection কী?
-123. Android Studio ও Spring Boot-এ Kotlin-এর পার্থক্য কী?
-124. Kotlin type inference কীভাবে কাজ করে?
-125. Kotlin null safety কীভাবে কাজ করে?
-126. Kotlin operator কীভাবে কাজ করে?
-127. Kotlin control flow কীভাবে কাজ করে?
-128. try–catch কীভাবে কাজ করে?
-129. Function/method কীভাবে কাজ করে?
-130. Function parameter কীভাবে pass করা হয়?
-131. Class ও object কীভাবে তৈরি করা হয়?
-132. এক class-এর property অন্য class থেকে কীভাবে access করা হয়?
-133. Kotlin-এ globally কিছু call কীভাবে করা হয়?
-134. Kotlin collections (List, Set, Map) বিস্তারিত কী?
-135. Inheritance ও interface দিয়ে code reuse কীভাবে করা হয়?
-136. Extension function কী?
-137. Kotlin loops কীভাবে কাজ করে?
-138. Kotlin function কয় প্রকার?
-139. Default ও Named Arguments কী?
-140. এক লাইনে function কীভাবে লেখা হয়?
-141. Higher-order function কী?
-142. Lambda expression কী?
-143. Inline function কী?
-144. Constructor কয় প্রকার?
-145. Inheritance কীভাবে কাজ করে?
-146. Interface কীভাবে কাজ করে?
-147. Abstract class কী?
-148. Class private করা যায় কি?
-149. Property private করে বাইরে থেকে access কীভাবে করা হয়?
-150. Sealed class কী?
-151. Enum class কী?
-152. Scope function (let, run, apply, also, with) কী?
-153. Generic কীভাবে কাজ করে?
-154. Delegation (by keyword) কী?
-155. Variable late initialization কীভাবে করা হয়?
-156. Coroutines কী?
-157. Suspend function কী?
-158. Thread management কীভাবে করা হয়?
-159. Kotlin streaming/flow কী?
-160. Live location কীভাবে handle করা হয়?
-161. Camera ও gallery থেকে data নেওয়া কীভাবে করা হয়?
-162. Network handling-এর option কী কী?
-163. Exception handling কীভাবে করা হয়?
+1. Kotlin-এ val কীভাবে কাজ করে?
+2. Kotlin-এ var কীভাবে কাজ করে?
+3. Kotlin-এর সব data type কী কী?
+4. Kotlin-এ fun কেন ব্যবহার করা হয়?
+5. Kotlin-এ console print করার জন্য কী লেখা হয়?
+6. print ও println-এর পার্থক্য কী?
+7. Double quotation-এর ভিতরে variable কীভাবে call করা হয়?
+8. $ sign-এর কাজ কী?
+9. Kotlin-এ comment কীভাবে লেখা হয়?
+10. if–else কীভাবে কাজ করে?
+11. when expression কীভাবে কাজ করে?
+12. Range কীভাবে কাজ করে?
+13. Return ছাড়া function কীভাবে লেখা হয়?
+14. Object কীভাবে তৈরি করা হয়?
+15. Kotlin-এ getter ও setter কীভাবে কাজ করে?
+16. Kotlin-এ polymorphism কীভাবে কাজ করে?
+17. Nullable type কীভাবে কাজ করে?
+18. Kotlin-এ file handling কীভাবে করা হয়?
+19. Annotation কী এবং কীভাবে কাজ করে?
+20. Kotlin debugging কীভাবে করা হয়?
+21. Kotlin multithreading কী?
+22. Kotlin build tools ও library কী?
+23. Kotlin reflection কী?
+24. Android Studio ও Spring Boot-এ Kotlin-এর পার্থক্য কী?
+25. Kotlin type inference কীভাবে কাজ করে?
+26. Kotlin null safety কীভাবে কাজ করে?
+27. Kotlin operator কীভাবে কাজ করে?
+28. Kotlin control flow কীভাবে কাজ করে?
+29. try–catch কীভাবে কাজ করে?
+30. Function/method কীভাবে কাজ করে?
+31. Function parameter কীভাবে pass করা হয়?
+32. Class ও object কীভাবে তৈরি করা হয়?
+33. এক class-এর property অন্য class থেকে কীভাবে access করা হয়?
+34. Kotlin-এ globally কিছু call কীভাবে করা হয়?
+35. Kotlin collections (List, Set, Map) বিস্তারিত কী?
+36. Inheritance ও interface দিয়ে code reuse কীভাবে করা হয়?
+37. Extension function কী?
+38. Kotlin loops কীভাবে কাজ করে?
+39. Kotlin function কয় প্রকার?
+40. Default ও Named Arguments কী?
+41. এক লাইনে function কীভাবে লেখা হয়?
+42. Higher-order function কী?
+43. Lambda expression কী?
+44. Inline function কী?
+45. Constructor কয় প্রকার?
+46. Inheritance কীভাবে কাজ করে?
+47. Interface কীভাবে কাজ করে?
+48. Abstract class কী?
+49. Class private করা যায় কি?
+50. Property private করে বাইরে থেকে access কীভাবে করা হয়?
+51. Sealed class কী?
+52. Enum class কী?
+53. Scope function (let, run, apply, also, with) কী?
+54. Generic কীভাবে কাজ করে?
+55. Delegation (by keyword) কী?
+56. Variable late initialization কীভাবে করা হয়?
+57. Coroutines কী?
+58. Suspend function কী?
+59. Thread management কীভাবে করা হয়?
+60. Kotlin streaming/flow কী?
+61. Live location কীভাবে handle করা হয়?
+62. Camera ও gallery থেকে data নেওয়া কীভাবে করা হয়?
+63. Network handling-এর option কী কী?
+64. Exception handling কীভাবে করা হয়?
 
----
 
