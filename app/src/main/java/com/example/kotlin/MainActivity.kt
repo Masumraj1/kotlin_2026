@@ -15,6 +15,8 @@ class MainActivity : ComponentActivity() {
             KotlinTheme {
                 // Ekhane ar manually screen change korte hobe na
                 AppNavigation()
+                println("=========>>App is running! <<=========")
+
             }
         }
     }
